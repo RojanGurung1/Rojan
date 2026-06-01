@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio | Creative Developer & Designer</title>
+    <meta name="description" content="Welcome to my student portfolio website showcasing web development projects, creative design work, academic details, and contact info.">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Ambient background glow elements -->
+    <div class="ambient-glow glow-top-left"></div>
+    <div class="ambient-glow glow-bottom-right"></div>
+
+    <!-- Sticky Header -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                Student<span>.</span>Dev
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-welcome">Hello & Welcome! I am</span>
+                    <h1 class="hero-title">A Student <br><span class="gradient-text">Developer</span></h1>
+                    <div class="hero-subtitle">
+                        I am a&nbsp;<span id="typed-text"></span><span class="typed-cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        An aspiring technology enthusiast pursuing Computer Science. I specialize in building visually engaging, responsive websites and developing clean, logical solutions to complex problems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect <i class="fas fa-paper-plane"></i></a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter Profile">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:student@example.com" class="social-icon" aria-label="Email Me">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="avatar-wrapper">
+                        <!-- Generated premium student developer avatar image -->
+                        <img src="assets/avatar.png" alt="Student Developer Avatar illustration">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <div class="section-header">
+                <span class="section-subtitle">Get to Know Me</span>
+                <h2 class="section-title">About Me & Skills</h2>
+            </div>
+            
+            <div class="about-container">
+                <div class="about-details">
+                    <h3 class="gradient-text">My Journey</h3>
+                    <p class="about-text">
+                        I am a dedicated Computer Science student with a strong passion for software engineering, frontend aesthetics, and UI/UX designs. I love bridging the gap between clean engineering and appealing aesthetics.
+                    </p>
+                    <p class="about-text">
+                        Throughout my academic career, I've focused on mastering modern programming languages, algorithms, and web paradigms. When I'm not studying or debugging code, you can find me experimenting with UI designs or exploring new open-source projects.
+                    </p>
+                    
+                    <div class="about-education">
+                        <h3 class="gradient-text">Education</h3>
+                        <div class="education-item">
+                            <span>2024 - Present</span>
+                            <h4>Bachelor of Science in Computer Science</h4>
+                            <p>University of Tech Science | GPA: 3.8/4.0</p>
+                        </div>
+                        <div class="education-item">
+                            <span>2022 - 2024</span>
+                            <h4>High School Diploma (Science & Math Major)</h4>
+                            <p>Global Academy High School | Top 5% of class</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-wrapper">
+                    <div class="skills-category">
+                        <h3>My Toolkit</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git & GitHub</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Statistics counters -->
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <div class="stat-number">12+</div>
+                            <div class="stat-label">Projects Created</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2000+</div>
+                            <div class="stat-label">Hours Coded</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">300+</div>
+                            <div class="stat-label">Coffee Cups</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="section-header">
+                <span class="section-subtitle">My Creative Space</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1: Development -->
+                <article class="project-card" data-category="development">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="tag">Web Dev</span>
+                        </div>
+                        <!-- Beautiful placeholder layout using CSS styling, image acts as mockup -->
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="E-Commerce application mockup">
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View Live Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-title">NexShop E-Commerce</h3>
+                        <p class="project-description">
+                            A modern fully-responsive e-commerce platform storefront. Built using interactive Javascript logic, semantic HTML layouts, and styling transitions. Features local storage shopping cart, product search, and responsive filtering.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-pill">HTML5</span>
+                            <span class="tech-pill">CSS3</span>
+                            <span class="tech-pill">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Design -->
+                <article class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="tag">UI/UX Design</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1541462608141-2ffb68df685e?auto=format&fit=crop&w=600&q=80" alt="Figma redesign layout dashboard mockup">
+                        <div class="project-links">
+                            <a href="https://figma.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Figma Prototype">
+                                <i class="fab fa-figma"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-title">EduSync Hub Redesign</h3>
+                        <p class="project-description">
+                            An intuitive, student-centric academic dashboard UI design system created to simplify lecture scheduling, homework trackers, and teacher messaging portals. Focused heavily on accessibility, micro-interactions, and visual hierarchy.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-pill">Figma</span>
+                            <span class="tech-pill">UI Design</span>
+                            <span class="tech-pill">Prototyping</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Development -->
+                <article class="project-card" data-category="development">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="tag">AI / Python</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="Matrix neon digital lines background screenshot mockup">
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-title">AI Resume Parser</h3>
+                        <p class="project-description">
+                            A smart natural language processing script that reads candidate resumes and classifies skill levels, career experience, and academic paths. Utilizes Python libraries and provides an HTML/CSS analytical dashboard dashboard.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">HTML/CSS</span>
+                            <span class="tech-pill">NLP API</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header">
+                <span class="section-subtitle">Get in Touch</span>
+                <h2 class="section-title">Drop Me a Message</h2>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="gradient-text">Let's build something amazing together!</h3>
+                    <p class="contact-text">
+                        Whether you want to collaborate on a school project, offer internship opportunities, or just say hello—my inbox is always open. Feel free to use the contact form, email me directly, or connect through social media.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Email</h4>
+                                <p>student@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Location</h4>
+                                <p>Kathmandu, Nepal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <!-- Form actions -->
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-input" placeholder=" " required>
+                            <label for="name" class="form-label">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-input" placeholder=" " required>
+                            <label for="email" class="form-label">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-input" placeholder=" " required></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div id="form-status" class="form-status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                Student<span>.</span>Dev
+            </div>
+            <p class="footer-copy">
+                &copy; 2026 Student Portfolio. All rights reserved. Created with <i class="fas fa-heart" style="color: var(--accent-secondary)"></i> using HTML, CSS & JS.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top of page">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Application Script -->
+    <script src="js/app.js"></script>
+</body>
+</html>
